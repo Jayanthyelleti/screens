@@ -1,0 +1,23 @@
+name: finalapp
+description: internship app
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  image_picker:
+  camera: ^0.2.6
+
+  path_provider: ^0.4.1
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - test/lake.jpeg
+    - test/top.jpeg
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
